@@ -59,14 +59,22 @@
     margin-left: -35px;
 }
 
+.container-main {
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 200px;
+    margin-right: 550px;
+}
+
 /* Gallery */
+
 
 #icons {
    padding: 3px;
 }
 
 #card-space {
-    margin: 15px;
+    margin-bottom: 15px;
 }
 
 .top-space {
@@ -113,7 +121,7 @@
 }
 
 .res-btn:hover {
-    color: rgb(219, 48, 85)
+    color: #FF7216
 }
 
 .contact {
