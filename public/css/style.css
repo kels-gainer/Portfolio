@@ -87,6 +87,45 @@
 
 .top-space {
     margin-top: 35px;
+    align-content: center;
+}
+
+#skills-list {
+    margin-bottom: 35px;
+}
+
+.skill-title {
+    margin-bottom: 15px;
+    color: #212121;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+.container-fluid { 
+    opacity: 0.8;
+    padding: 5px;
+    align-content: center;
+}
+
+.skills {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    padding: 10px;
+    text-orientation: sideways;
+    padding-left: 45px;
+}
+
+hr{
+    border: 1px solid #212121;
 }
 
 

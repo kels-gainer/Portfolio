@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Russo+One" rel="stylesheet">
-    <title>K Gainer Portfolio</title>
+    <title>K.Gainer Portfolio</title>
 </head>
 <body>
     <div class="container">
@@ -18,13 +18,56 @@
             <a href="contact.html"><i class="far fa-envelope-open"></i></i></a>
         </div>
         <div class="row top-space">
+            <div class="container-fluid" id="skills-list">
+                <h1 class="skill-title">SKILLS USED</h1>
+                <div class="row">
+                    <div class="col skills">
+                        <h4>Client-Side</h4>
+                        <ul>
+                            <li>HTML5/CSS3</li>
+                            <li>React</li>
+                            <li>JQuery</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="col skills">
+                        <h4>Server-Side</h4>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="col skills">
+                        <h4>Responsive Design</h4>
+                        <ul>
+                            <li>CSS Frameworks</li>
+                            <li>Bootstrap</li>
+                            <li>Bulma</li>
+                            <li>Media Queries</li>
+                        </ul>
+                    </div>
+                    <div class="col skills">
+                        <h4>VCS & Dev Tools</h4>
+                        <ul>
+                            <li>Git</li>
+                            <li>Visual Studio</li>
+                            <li>Postman</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr>
+
+            </div>
                 <div class="col-sm" id="card-space">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 300px;">
                         <img src="./public/images/psyc.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Psych Game</h5>
-                            <p class="card-text">Computer psychic is a guessing game that allows the player to see if they can guess what letter the computer is thinking.
-                                It will keep track of their wins, tries, & losses.</p>
+                            <p class="card-text">A guessing game that allows the player to see if they can guess what letter the computer is thinking.</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/kels-gainer/Psyc-Game" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -33,12 +76,11 @@
                     </div>
                 </div>
                 <div class="col-sm" id="card-space">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 300px;">
                         <img src="./public/images/crystal.png" class="card-img-top" alt="...">
                             <div class="card-body">
                             <h5 class="card-title">Crystal Collector</h5>
-                            <p class="card-text">Another game application that assigns a random number to each crystal icon and a score.
-                                The player has to guess their quantity to match the preassigned score.</p>
+                            <p class="card-text">A game assigning a random score to each gem icon that the player has to guess.</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/kels-gainer/Crystal-Game" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -47,13 +89,12 @@
                     </div>
                 </div>
                 <div class="col-sm" id="card-space">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 300px;">
                         <img src="./public/images/gify.png" class="card-img-top" alt="...">
 
                         <div class="card-body">
                             <h5 class="card-title">Gify</h5>
-                            <p class="card-text">Using the giphy api this app populates the page with relevant gifs to the user input.
-                                    The client can also create buttons to personalize their search.</p>
+                            <p class="card-text">Using the giphy api this app populates the page with relevant gifs to the user input.</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/kels-gainer/Gify" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -64,13 +105,11 @@
             </div>
             <div class="row">
                 <div class="col-sm" id="card-space">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 300px;">
                         <img src="./public/images/train.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Train Schedule</h5>
-                            <p class="card-text">This time table allows the client to add a trains information then add it to the chart 
-                                to see its arrival times and more as well as add the train to the database.
-                            </p>
+                            <p class="card-text">Using Firebase & Moment.js the client can add & look up example train times.</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/kels-gainer/Train-Times" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -79,11 +118,11 @@
                     </div>
                 </div>
                 <div class="col-sm" id="card-space">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 300px;">
                         <img src="./public/images/bmazon.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Bmazon</h5>
-                            <p class="card-text">Bamazon is a node application that uses prompts to allow the user to select items for purchase that are in a database and add them to a cart.</p>
+                            <p class="card-text">A Node application that allows the user to add items to their cart and make purchases.</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/kels-gainer/bamazon" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -91,11 +130,11 @@
                     </div>
                 </div>
                 <div class="col-sm" id="card-space">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 300px;">
                         <img src="./public/images/liri.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Liri</h5>
-                            <p class="card-text">Liri bot is a node application that uses Axios to  call down information that the user requests from movies, artists, venues, and more.</p>
+                            <p class="card-text">Using Axios the user can call information from movies, artists, venues, and more.</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/kels-gainer/Liri" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -106,11 +145,11 @@
         
                 <div class="row">
                     <div class="col-sm" id="card-space">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 300px;">
                             <img src="./public/images/hiking.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Trail Blazer</h5>
-                                <p class="card-text">Trail Blazer is a collaborative project to create a hiking app for those who aren't as familiar with an areas available trails and let them store their favorites.</p>
+                                <p class="card-text">A collaborative project to create a hiking app for those who aren't as familiar with an area.</p>
                             </div>
                             <div class="card-body">
                                 <a href="https://github.com/Gamlilorien/project-1" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -119,13 +158,11 @@
                         </div>
                     </div>
                     <div class="col-sm" id="card-space">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./public/images/trivia.png" class="card-img-top" alt="...">
+                        <div class="card" style="width: 300px;">
+                            <img src="./public/images/trivia2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Space Trivia</h5>
-                                <p class="card-text">This game tests how much the client knows about their own solar system. Using radio buttons they must race the clock to
-                                    see if they can guess correctly.
-                                </p>
+                                <p class="card-text">The user must answer six quiz questions before the timer runs out, their scores tallied at the end.</p>
                             </div>
                             <div class="card-body">
                                 <a href="https://github.com/kels-gainer/Trivia-Game" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -134,12 +171,11 @@
                         </div>
                     </div>
                     <div class="col-sm" id="card-space">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 300px;">
                             <img src="./public/images/travel.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Travel Log</h5>
-                                <p class="card-text">This application allows the user to posts where they would like to go and then allows them
-                                        to move the listed destination to “visited” when they've gone to the location.</p>
+                                <p class="card-text">A CRUD application allowing the user to post and remove items they added to their list.</p>
                             </div>
                             <div class="card-body">
                                 <a href="https://github.com/kels-gainer/Travel" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -150,11 +186,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm" id="card-space">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./public/images/meme.png" class="card-img-top" alt="...">
+                        <div class="card" style="width: 300px;">
+                            <img src="./public/images/meme2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">My MEME</h5>
-                                <p class="card-text">My Meme is a group project that generates memes that a user can save to their own account and share to other users through chat as well as create their own.</p>
+                                <p class="card-text">A group project that generates memes that a user can save to their own account.</p>
                             </div>
                             <div class="card-body">
                                 <a href="https://github.com/kels-gainer/Project2" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -163,11 +199,11 @@
                         </div>
                     </div>
                     <div class="col-sm" id="card-space">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./public/images/react.png" class="card-img-top" alt="...">
+                        <div class="card" style="width: 300px;">
+                            <img src="./public/images/react2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Clicky Game</h5>
-                                <p class="card-text">This game uses React to make a dinamic memory game that shuffles the users choices and keeps track of their score and alerts them if they've lost.</p>
+                                <p class="card-text">A React memory game that keeps score if the user selects the same image twice.</p>
                             </div>
                             <div class="card-body">
                                 <a href="https://github.com/kels-gainer/React-Game" target="_blank" class="card-link"><i class="fab fa-github" id="icons"></i>Code</a>
@@ -176,12 +212,11 @@
                         </div>
                     </div>
                     <div class="col-sm" id="card-space">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 300px;">
                             <img src="./public/images/news.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">News Scrapper</h5>
-                                <p class="card-text">Using webscrapping this application makes it easy for the user to pull all the new articles from The Times and place them into 
-                                    MongoDB.
+                                <p class="card-text">Tthis webscrapping application gets articles from The Times & places into MongoDB.
                                 </p>
                             </div>
                             <div class="card-body">
